@@ -1,0 +1,42 @@
+.nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+}
+
+.left-nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-nav {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  color: none;
+  border: none;
+  font-size: 16px;
+}
+
+#join-btn {
+  font-weight: bold;
+  color: white;
+  width: 155px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: linear-gradient(to left, #0048ff, #0096ff);
+  border-radius: 19px;
+  font-size: 11px;
+  cursor: pointer;
+}

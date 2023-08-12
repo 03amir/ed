@@ -1,0 +1,41 @@
+.special-box {
+  width: 78%;
+  border: 2px solid #de4313;
+  margin: auto;
+  padding: 5px 25px;
+  background: linear-gradient(to bottom right, #fad9ce, #efe3d1);
+  color: #de4313;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.flex-box-special {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-box-special h4,
+.flex-box-special p {
+  padding: 0;
+  margin: 0;
+}
+
+.special-box img {
+  width: 25px;
+  height: 25px;
+}
+
+.flex-start {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.flex-start p {
+  padding: 0;
+  margin: 0;
+}

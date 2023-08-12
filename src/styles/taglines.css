@@ -1,0 +1,47 @@
+.taglines {
+  color: white;
+}
+
+.heading {
+  font-family: "Raleway";
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.heading-span {
+  font-family: "Roboto";
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.heading-span-blue {
+  color: #0096ff;
+}
+
+.heading-span-red {
+  text-decoration: line-through red;
+}
+
+.single-tagline {
+  display: flex;
+  align-items: center;
+}
+
+.single-tagline img {
+  width: 50px;
+  margin-right: 35px;
+}
+
+.single-tagline p {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.tagline-span-blue {
+  color: #0096ff;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 500;
+}

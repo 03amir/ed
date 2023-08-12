@@ -1,0 +1,119 @@
+.card {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 20px 5px;
+  border-radius: 7px;
+  font-family: "Roboto";
+}
+
+.flex-box p,
+.flex-box h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.progress-bar {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.box {
+  background-color: #0096ff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.box-text {
+  font-size: 15px;
+  margin: 0px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.plan-heading {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.button-bar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.button-pay {
+  width: 48%;
+  border: 2px solid #47ba68;
+  background-color: #47ba68;
+  padding: 13px 0px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.button-cancel {
+  width: 48%;
+  border: 2px solid #f77171;
+  padding: 13px 0px;
+  border-radius: 4px;
+  color: #f77171;
+  cursor: pointer;
+}
+
+.button-bar h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.razor-box {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+}

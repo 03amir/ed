@@ -1,0 +1,112 @@
+.offer-box {
+  width: 78%;
+  margin: auto;
+  background-color: white;
+  border: 3px solid #bebebe;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 11px 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.expired-offer-box {
+  background-color: #e7e7e7;
+  color: #bebebe;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.selected-offer-box {
+  border: 3px solid #47ba68;
+  background-color: #e7fbee;
+}
+
+.expired-offer {
+  background-color: #f77171;
+  position: absolute;
+  left: 16%;
+  top: 0;
+  padding: 0px 23px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.recomended-offer {
+  background-color: #47ba68;
+  position: absolute;
+  left: 16%;
+  top: 0;
+  padding: 0px 23px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-size: 10px;
+}
+
+.default-class{
+  width: 25px;
+  height: 25px;
+  border: 3px solid #bebebe;
+  border-radius: 50%;
+}
+
+.expired-class{
+  width: 25px;
+  height: 25px;
+  border: 3px solid #bebebe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle{
+  width: 20px;
+  height: 20px;
+  background-color: #bebebe;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.selected-class{
+  width: 29px;
+  height: 29px;
+  background-image: url(../assets/radio.png);
+  background-size: cover;
+}
+
+.left-offer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.offer-text,
+.total-money {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.month-money {
+  font-size: 10px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.money-span {
+  font-size: 12px;
+}
+.money-span-month {
+  font-size: 12px;
+  font-weight: 500;
+}
